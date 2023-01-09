@@ -26,3 +26,7 @@ navLink.forEach((link) =>
     ul.classList.remove("show");
   })
 );
+
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
